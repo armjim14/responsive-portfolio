@@ -1,0 +1,182 @@
+body {
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://webgradients.com/public/webgradients_png/083%20Jungle%20Day.png);
+}
+
+#top {
+    position: relative;
+    height: 100px;
+    width: 960px;
+}
+
+#intop {
+    position: absolute;
+    left: 0;
+    font-size: 29px; 
+    height: 100px;
+    background-color: #4aaaa5;
+    vertical-align: middle;
+    line-height: 85px;
+    font-weight: bold;
+    color: white;
+}
+
+#intop2 {
+    height: 50px;
+    width: 35%;
+    float: right;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+#middle {
+    border-left-color: #666666;
+    border-right-color: #666666;;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-left-width: 1.5px;
+    border-right-width: 1.5px;
+    
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+}
+
+a {
+    padding-right: 12px;
+    padding-left: 12px;
+    color: gray;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+section {
+    margin: 0 auto;
+    background-color: white;
+    height: 500px;
+    width: 960px;
+    margin-top: 70px;
+    position: relative;
+}
+
+#lhead {
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    height: 83px;
+    border-bottom-style: solid;
+    border-bottom-color: #dddddd;
+}
+
+#title {
+    text-align: left;
+    float: left;
+    font-weight: bold;
+    margin: 20px;
+    color: #4aaaa5;
+    width: 80%;
+    padding-bottom: 25px;
+    margin-left: 35px;
+    font-size: 35px;
+}
+
+#img1 {
+    width: 250px;
+    margin-left: 18px;
+    float: left;
+    padding-right: 25px;
+}
+
+#text {
+    position: relative;
+    font-size: 22px;
+    color: #777777;
+    right: 2px;
+    width: auto;
+}
+
+footer {
+    width: 100%;
+    color: white;
+    height: 50px;
+    background-color: #666666;
+    text-align: center;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    position: absolute;
+    bottom: 0;
+}
+
+#inin {
+    margin-left: 20px;
+}
+
+input {
+    padding-left: 8px;
+    width: 95%;
+}
+
+#large {
+    height: 65px;
+}
+
+button {
+    background-color: #4aaaa5;
+    padding: 5px;
+    width: 80px;
+    color: white;
+}
+#bottom {
+    margin-top: 15px;
+}
+
+h4 {
+    font-size: 18px;
+    text-align: left;
+    padding: 10px 0px 0px 20px;
+}
+
+.other {
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 95%;
+    height: 8vh;
+    text-align: left;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
+
+@media screen and (max-width: 980px) {
+    #top { width: 100%; }
+    #intop2 { width: 280px; }
+    #intop { left: 2%; }
+    a { font-size: 20px;}
+    section { width: 725px; margin-left: 3%; }
+}
+
+@media screen and (max-width: 768px) {
+    section { width: 95%; }
+}
+
+@media screen and (max-width: 640px) {
+    #top { height: 200px; background-color: white; }
+    #intop { float: left; width: 98%; height: 100px; position: relative;}
+    #intop2 { float: left; width: 100%; height: 100px; }
+    section { margin-top: 150px; }
+    #img1 { float: left; margin-left: 25%; width: 50%; }
+    #text { float: left; text-align: center; margin-top: 10px;}
+}
+
+@media screen and (max-height: 720px) {
+    footer { bottom: auto; margin-top: 25px; }
+}
