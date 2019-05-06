@@ -177,7 +177,7 @@ a:hover {
     section { margin-top: 150px; }
     #img1 { float: left; margin-left: 25%; width: 50%; }
     #text { float: left; text-align: center; margin-top: 15px; padding: 0 15px 0 15px; font-size: 18px; }
-    footer { position: absolute; bottom: 0;  margin-top: 30px; height: 25px; }
+    footer { position: absolute; bottom: 0;  margin-top: 30px; height: 35px; }
 }
 
 @media screen and (max-height: 760px) and (min-width: 641px) {
@@ -186,6 +186,6 @@ a:hover {
 }
 
 @media screen and (max-height: 815px) and (max-width: 640px) {
-    footer { bottom: auto; height: 15px; }
+    footer { bottom: auto; height: 35px; }
     section { margin-bottom: 4px; }
 }
